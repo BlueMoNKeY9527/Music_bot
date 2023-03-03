@@ -1,0 +1,40 @@
+新開的專案
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin 專案網址
+git push -u origin main
+----------------------------------------------
+舊的專案
+git remote add origin 專案網址
+git branch -M main
+git push -u origin main
+
+===========================
+上傳步驟
+把想要的檔案放在資料夾
+git status
+確認為上傳
+git add 要上傳檔案
+git commit -m "註解"
+git push -u origin main
+===========================
+指令
+git status ;目前狀態
+git rm 你要的東西   ;刪除
+git add 你要的東西 ;增加
+git commit -m "註解"
+git push  ;上傳
+
+============================
+glitch上傳
+New project -> github 網址
+更新config.txt 的token:機器人ID   owner: 自己discord ID
+Settings -> Edit project details -> 更改專案名字
+更新Server.js -> const bat = execFile('java',['-jar', '更新版本.jar']);
+
+到share內的Live site 複製網址貼到google script
+
+完成
+
