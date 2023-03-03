@@ -1,0 +1,12 @@
+{
+    "main": "Server.js",
+    "scripts": {
+      "start": "node Server.js"
+    },
+    "dependencies": {
+      "express": "14.18.1"
+    },
+    "engines": {
+      "node": "14.18.1"
+    }
+  }
